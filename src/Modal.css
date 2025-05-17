@@ -1,0 +1,55 @@
+form {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: fit-content;
+    width: 40%;
+    margin: 0 auto;
+  }
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  button {
+    background-color: blue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  
+  input {
+    border-radius: 5px;
+    border-color: rgb(196, 196, 196);
+  }
+
+  .App {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .modal-content {
+    border: 1px solid gray;
+    /* padding: 10px; */
+    background-color: rgba(0, 0, 0, 0.3);
+  
+    width:100vw;
+    height: 100vh;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal{
+    width: 100%;
+    height: 100%;
+    
+  }
